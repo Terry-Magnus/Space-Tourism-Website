@@ -9,8 +9,7 @@ See hover states for all interactive elements on the page
 View each page and be able to toggle between the tabs to see new information
 
 # Links
-Solution URL: Github
-Live Site URL: Netlify
+Solution URL: https://terry-magnus-space-tourism-website.netlify.app/
 
 # My process
 Built with
