@@ -13,13 +13,13 @@ Solution URL: https://terry-magnus-space-tourism-website.netlify.app/
 
 # My process
 Built with
-Semantic HTML5 markup
-CSS custom properties
-Flexbox
-Mobile-first workflow
-React - JS library
-Figma - For UI
+* Semantic HTML5 markup
+* CSS custom properties
+* Flexbox
+* Mobile-first workflow
+* React - JS library
+* Figma - For UI
 
 # Author
-Frontend Mentor - @TerryMagnus
-LinkedIn - Michael Uyanna
+* Frontend Mentor - @TerryMagnus
+* LinkedIn - Michael Uyanna
