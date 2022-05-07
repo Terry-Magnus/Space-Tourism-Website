@@ -1,1 +1,26 @@
-# Space-Tourism-Website
+# Space-Tourism-Website Solution (FrontendMentor)
+This is a solution to the Space tourism website challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+# The challenge
+Users should be able to:
+
+View the optimal layout for each of the website's pages depending on their device's screen size
+See hover states for all interactive elements on the page
+View each page and be able to toggle between the tabs to see new information
+
+# Links
+Solution URL: Github
+Live Site URL: Netlify
+
+# My process
+Built with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+Mobile-first workflow
+React - JS library
+Figma - For UI
+
+# Author
+Frontend Mentor - @TerryMagnus
+LinkedIn - Michael Uyanna
