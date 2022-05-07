@@ -1,0 +1,140 @@
+.destination-page {
+    background: url("../../images/destination/background-destination-mobile.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    font-family: "Bellfair", 'Gill Sans', 'Trebuchet MS';
+    text-align: center;
+}
+.destination-page > h3 { 
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+.destination-page > h3 span[aria-hidden="true"] {
+    color: #808080;
+    font-weight: 700;
+}
+.destination {
+    padding: 5vh 5vw;
+}
+.destination-img {
+    width: 50vw;
+    margin: 0 auto;    
+}
+.destination-tabs {
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tab {
+    background: none;
+    text-transform: uppercase;
+    border: 0;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 0 5px 0;
+}
+.tab.active {
+    border-bottom: 3px solid white;
+}
+.destination-details > h1 {
+    font-weight: 400;
+    font-family: "Bellefair";
+    text-transform: uppercase;
+    font-size: 56px;
+    line-height: 64px;
+}
+.destination-details > p {
+    font-family: "Barlow";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+
+}
+.destination-details hr {
+    height: 1px;
+    opacity: 0.25;
+    background: #fff;
+}
+.destination-bottom p {
+    margin-block: 20px;
+    text-transform: uppercase;
+    color: gray;
+    font-family: "Bellefair";
+}
+.destination-bottom p > span {
+    font-size: 1.5em;
+    color: white;
+    font-family: "Bellefair";
+}
+@media (min-width: 600px) and (max-width: 992px) {/*Tablet screen size*/
+    .destination-page {
+        background: url("../../images/destination/background-destination-tablet.jpg") no-repeat;
+        background-size: cover;
+    }
+    .destination-page > h3 {
+        text-align: left;
+        padding-left: 55px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 3.3px;        
+    }
+    .destination-details > h1 {
+        font-size: 80px;
+        line-height: 92px;
+    }
+    .destination-bottom {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 992px) {/*Desktop screen size*/
+    .destination-page {
+        background: url("../../images/destination/background-destination-desktop.jpg") no-repeat;
+        background-size: cover;
+    }
+    .destination {
+        display: flex;
+        margin: 20px 50px 0 167px;
+        align-items: center;
+        padding: 0;
+    }
+    .destination-page > h3 {
+        text-align: left;
+        margin-left: 167px;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.72px;
+    }
+    .destination-tabs { justify-content: space-between;}
+    .destination-details > h1 {
+        font-size: 100px;
+        line-height: 115px;
+        margin-block: 20px;
+    } 
+    .destination-info {
+        text-align: left;
+        padding: 5vw;
+        width: 50%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    .destination-info p {
+        text-align: left;
+    }
+    .destination-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,112 @@
+.crew-page {
+    background: url(../../images/crew/background-crew-mobile.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    font-family: "Bellefair";
+}
+.crew-page h3{
+    margin-block: 10vh; 
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.7px;
+
+}
+.crew-page h3 span[aria-hidden="true"]{
+    color: grey;
+    font-weight: 700;
+}
+.crew {
+    display: flex;
+    flex-direction: column;
+}
+.crew-img {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.crew-data {
+    margin: 0 5vw;    
+    font-family: "Bellefair";
+}
+.crew-data > h2 {
+    font-family: "Bellefair";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-block: 10px;    
+    color: gray;
+}
+.crew-data > h1 {
+    font-family: "Bellefair";
+    font-size: 56px;
+    font-weight: 400;
+    margin-block: 10px;
+    line-height: 64px;    
+}
+.crew-data > p{
+    /* margin: 10px 25%; */
+    font-family: 'Barlow';
+    font-size: 15px;
+    line-height: 25px;
+}
+.slide-indicators{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5vw auto;
+    width: 20%;
+}
+.slide-button  {
+    background-color: grey;
+    width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+.slide-button.active {
+    background: white;
+}
+@media (min-width: 768px) and (max-width: 992px)  {
+    .crew-page {
+        background: url(../../images/crew/background-crew-tablet.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .crew {
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width: 992px) {
+    .crew-page {
+        background: url(../../images/crew/background-crew-desktop.jpg) center center no-repeat;
+        background-size: cover;
+        text-align: left;
+    }
+    .crew-page h3 {
+        margin-left: 167px;
+    }
+    .crew {
+        flex-direction: row-reverse;
+        padding-left: 167px;
+    }
+    .crew section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 55%;
+    }
+    .crew-data {
+        margin: 0;
+    }
+    .slide-indicators {
+        margin: 5vw 0;
+    }
+    .crew-img {
+        width: 30vw;
+    }
+}
